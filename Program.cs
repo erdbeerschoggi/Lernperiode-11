@@ -1,7 +1,7 @@
 ﻿using System;
 using Avalonia;
 
-namespace Lernperiode11
+namespace KletterRoutenBasis
 {
     internal sealed class Program
     {

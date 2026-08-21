@@ -4,10 +4,10 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Data.Core;
 using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
-using Lernperiode11.ViewModels;
-using Lernperiode11.Views;
+using KletterRoutenBasis.ViewModels;
+using KletterRoutenBasis.Views;
 
-namespace Lernperiode11
+namespace KletterRoutenBasis
 {
     public partial class App : Application
     {

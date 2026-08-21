@@ -2,9 +2,9 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using Lernperiode11.ViewModels;
+using KletterRoutenBasis.ViewModels;
 
-namespace Lernperiode11
+namespace KletterRoutenBasis
 {
     /// <summary>
     /// Given a view model, returns the corresponding view if possible.
