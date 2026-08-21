@@ -24,6 +24,13 @@ Heute habe ich mir Gedanken gemacht, was für ein Projekt ich ganz genau machen 
 - [x] Als Informatikerin möchte ich mich informieren, wie ich genau diese mobile App entwickeln soll. 
 - [ ] Als Informatikerin möchte ich erstmals eine Basis (To-Do App) für mein Projekt erstellen. 
 - [ ] Als Informatikerin möchte ich mir eine Übersicht über alle funktionen erstellen.
-- [ ] Als Informatikerin möchte ich mir ein ungefähres Layout erstellen, sodass ich die wichtigen funktionen erstellen kann.
+- [x] Als Informatikerin möchte ich mir ein ungefähres Layout erstellen, sodass ich die wichtigen funktionen erstellen kann.
 
-Notizen zum 1. Arbeitspaket (da es DSL ist und ich muss das morgen noch wissen): Zuerst mache ich eine To-do-App. Diese wird mir dann als Vorlage nützlich sein und somit kann ich meinen Kletter-Tracker weiterbauen. Eine To-do-App ist eine gute Basis zum Anfang, denn wie bei dem Kletter-Tracker muss ich Einträge machen können. Von dort aus kann ich dann meine App weiterbauen und so verändern, dass sie dann die Funktionen von einem Kletter-Tracker hat. Und anstatt einer Meme-App (was meine erste Idee war) mache ich eben diesen Kletter-Tracker und als Basis erstelle ich zuerst eine To-do-App und diese baue ich mit den passenden Funktionen dann weiter auf.
+**Notizen zum 1. Arbeitspaket (da es Dezentral a. ist und ich muss das morgen noch wissen):** Zuerst mache ich eine To-do-App. Diese wird mir dann als Vorlage nützlich sein und somit kann ich meinen Kletter-Tracker weiterbauen. Eine To-do-App ist eine gute Basis zum Anfang, denn wie bei dem Kletter-Tracker muss ich Einträge machen können. Von dort aus kann ich dann meine App weiterbauen und so verändern, dass sie dann die Funktionen von einem Kletter-Tracker hat. Und anstatt einer Meme-App (was meine erste Idee war) mache ich eben diesen Kletter-Tracker und als Basis erstelle ich zuerst eine To-do-App und diese baue ich mit den passenden Funktionen dann weiter auf.
+
+Heute habe ich meine Idee geändert und mich informiert, wie genau ich vorgehen soll bei der Erstellung von meinem Projekt. Ich entschied mich dann, eine To-do-App zu erstellen und dann Anpassungen vorzunehmen, sodass es nachher mit meiner Kletter-App funktioniert. Ich hatte Probleme wegen meiner .NET‑Version und verlor deshalb viel Zeit beim Arbeiten. Dazu hatte ich noch ein längeres Lerngespräch und kam nicht weit mit meiner Arbeit.
+
+## 28.8
+- [ ] Als Informatikerin möchte ich Avalonia vollständig in Visual Studio Code einrichten und an meinem Projekt dort weiter machen, damit ich effizienter weiterarbeiten kann.
+- [ ] Als Informatikerin möchte ich meinen Lebenslauf gezielt optimieren (Sprachen neu ordnen und die Top-3-Informatikkenntnisse hervorheben), damit potenzielle Arbeitgeber meine wichtigsten Stärken auf den ersten Blick erkennen.
+- [ ] Als Schülerin möchte ich den Stoff im Bereich Finanzen vor der anstehenden Prüfung repetieren, damit ich das Thema beherrsche und mir eine gute Note sichere.
