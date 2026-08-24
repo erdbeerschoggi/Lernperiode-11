@@ -31,6 +31,14 @@ Heute habe ich mir Gedanken gemacht, was für ein Projekt ich ganz genau machen 
 Heute habe ich meine Idee geändert und mich informiert, wie genau ich vorgehen soll bei der Erstellung von meinem Projekt. Ich entschied mich dann, eine To-do-App zu erstellen und dann Anpassungen vorzunehmen, sodass es nachher mit meiner Kletter-App funktioniert. Ich hatte Probleme wegen meiner .NET‑Version und verlor deshalb viel Zeit beim Arbeiten. Dazu hatte ich noch ein längeres Lerngespräch und kam nicht weit mit meiner Arbeit.
 
 ## 28.8
-- [ ] Als Informatikerin möchte ich Avalonia vollständig in Visual Studio Code einrichten und an meinem Projekt dort weiter machen, damit ich effizienter weiterarbeiten kann.
-- [ ] Als Informatikerin möchte ich meinen Lebenslauf gezielt optimieren (Sprachen neu ordnen und die Top-3-Informatikkenntnisse hervorheben), damit potenzielle Arbeitgeber meine wichtigsten Stärken auf den ersten Blick erkennen.
-- [ ] Als Schülerin möchte ich den Stoff im Bereich Finanzen vor der anstehenden Prüfung repetieren, damit ich das Thema beherrsche und mir eine gute Note sichere.
+- [x] Als Informatikerin möchte ich Avalonia vollständig in Visual Studio Code einrichten und an meinem Projekt dort weiter machen, damit ich effizienter weiterarbeiten kann.
+- [x] Als Informatikerin möchte ich meinen Lebenslauf gezielt optimieren (Sprachen neu ordnen und die Top-3-Informatikkenntnisse hervorheben), damit potenzielle Arbeitgeber meine wichtigsten Stärken auf den ersten Blick erkennen.
+- [x] Als Schülerin möchte ich den Stoff im Bereich Finanzen vor der anstehenden Prüfung repetieren, damit ich das Thema beherrsche und mir eine gute Note sichere.
+
+Heute habe ich Avalonia vollständig auf VS Code eingerichtet und die To-do-App mit dem Tutorial fertig gemacht. Ich habe mir auch ein bisschen mehr Zeit genommen, um mit dem Tutorial fertig zu werden. Meinen Lebenslauf habe ich auch noch verbessert, vor allem den Teil mit den Programmierkenntnissen. Ich fokussierte mich auch auf Finanzen und arbeitete Probetests durch, um mich bereit für den Test zu fühlen.
+
+## 04.8
+- [ ] Als Informatikerin möchte ich das Design meiner App ausbessern.
+- [ ] Als User möchte ich die Gym angeben bei der ich geklettert hat.
+- [ ] Als User möchte ich den Schwierigkeitsgrad angeben.
+- [ ] Als User möchte ich das Datum angeben an dem ich die Route geschafft habe.
