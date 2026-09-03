@@ -2,14 +2,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="KletternRoutenApp.App"
              xmlns:local="using:KletternRoutenApp"
-             RequestedThemeVariant="Default">
-             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+             RequestedThemeVariant="Light">
 
     <Application.DataTemplates>
         <local:ViewLocator />
     </Application.DataTemplates>
 
+    <Application.Resources>
+        <SolidColorBrush x:Key="AccentBrush">#2E7D32</SolidColorBrush>
+        <SolidColorBrush x:Key="AccentBrushLight">#43A047</SolidColorBrush>
+        <SolidColorBrush x:Key="PageBackgroundBrush">#F4F4F0</SolidColorBrush>
+        <SolidColorBrush x:Key="CardBrush">#FFFFFF</SolidColorBrush>
+        <SolidColorBrush x:Key="CardBorderBrush">#E0E0DA</SolidColorBrush>
+        <SolidColorBrush x:Key="TextBrush">#212121</SolidColorBrush>
+    </Application.Resources>
+
     <Application.Styles>
         <FluentTheme />
+
+        <Style Selector="Button">
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="Padding" Value="16,8" />
+            <Setter Property="Background" Value="{StaticResource AccentBrush}" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+        <Style Selector="Button:pointerover /template/ ContentPresenter">
+            <Setter Property="Background" Value="{StaticResource AccentBrushLight}" />
+        </Style>
+        <Style Selector="Button:disabled /template/ ContentPresenter">
+            <Setter Property="Background" Value="#BDBDBD" />
+            <Setter Property="TextBlock.Foreground" Value="White" />
+            <Setter Property="Opacity" Value="1" />
+        </Style>
+
+        <Style Selector="TextBox">
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="Padding" Value="12,8" />
+            <Setter Property="Background" Value="{StaticResource CardBrush}" />
+            <Setter Property="BorderBrush" Value="{StaticResource CardBorderBrush}" />
+            <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+        </Style>
+
+        <Style Selector="CheckBox">
+            <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+        </Style>
     </Application.Styles>
 </Application>
