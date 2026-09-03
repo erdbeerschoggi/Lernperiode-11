@@ -38,7 +38,15 @@ Heute habe ich meine Idee geändert und mich informiert, wie genau ich vorgehen 
 Heute habe ich Avalonia vollständig auf VS Code eingerichtet und die To-do-App mit dem Tutorial fertig gemacht. Ich habe mir auch ein bisschen mehr Zeit genommen, um mit dem Tutorial fertig zu werden. Meinen Lebenslauf habe ich auch noch verbessert, vor allem den Teil mit den Programmierkenntnissen. Ich fokussierte mich auch auf Finanzen und arbeitete Probetests durch, um mich bereit für den Test zu fühlen.
 
 ## 04.8
-- [ ] Als Informatikerin möchte ich das Design meiner App ausbessern.
+- [x] Als Informatikerin möchte ich das Design meiner App ausbessern.
 - [ ] Als User möchte ich die Gym angeben bei der ich geklettert hat.
 - [ ] Als User möchte ich den Schwierigkeitsgrad angeben.
 - [ ] Als User möchte ich das Datum angeben an dem ich die Route geschafft habe.
+
+Für das dezentrale Arbeitspaket habe ich mein Design der App ein wenig ausgebessert. Für das nächste Mal möchte ich die Funktionen der To-Do-App ausbessern, sodass es wirklich wie ein Klettertracker ist.
+
+## 11.09
+- [ ] Als User möchte ich die Gym angeben bei der ich geklettert hat.
+- [ ] Als User möchte ich den Schwierigkeitsgrad angeben.
+- [ ] Als User möchte ich das Datum angeben an dem ich die Route geschafft habe.
+- [ ] Als User möchte ich eine Bewertung zur Schwierigkeit angeben. (Eigene Bewertung der Schwierigkeit der Route)
