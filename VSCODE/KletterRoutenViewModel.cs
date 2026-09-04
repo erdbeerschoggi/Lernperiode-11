@@ -15,7 +15,10 @@ namespace KletternRoutenApp.ViewModels
         {
             IsChecked = item.IsChecked;
             Content = item.Content;
-        } 
+            Gym = item.Gym;
+            Schwierigkeitsgrad = item.Schwierigkeitsgrad;
+            Datum = item.Datum;
+        }
 
         private bool _isChecked;
 
@@ -27,17 +30,25 @@ namespace KletternRoutenApp.ViewModels
         [ObservableProperty]
         public partial string? Content { get; set; }
 
+        [ObservableProperty]
+        public partial string? Gym { get; set; }
+
+        [ObservableProperty]
+        public partial string? Schwierigkeitsgrad { get; set; }
+
+        [ObservableProperty]
+        public partial DateTimeOffset? Datum { get; set; }
 
         public KletterRouten GetKletterRouten()
-    {
-        return new KletterRouten()
         {
-            IsChecked = this.IsChecked,
-            Content = this.Content
-        };
+            return new KletterRouten()
+            {
+                IsChecked = this.IsChecked,
+                Content = this.Content,
+                Gym = this.Gym,
+                Schwierigkeitsgrad = this.Schwierigkeitsgrad,
+                Datum = this.Datum
+            };
+        }
     }
-    
-    }
-
-
 }
