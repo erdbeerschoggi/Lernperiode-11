@@ -39,9 +39,9 @@ Heute habe ich Avalonia vollständig auf VS Code eingerichtet und die To-do-App 
 
 ## 04.8
 - [x] Als Informatikerin möchte ich das Design meiner App ausbessern.
-- [ ] Als User möchte ich die Gym angeben bei der ich geklettert hat.
-- [ ] Als User möchte ich den Schwierigkeitsgrad angeben.
-- [ ] Als User möchte ich das Datum angeben an dem ich die Route geschafft habe.
+- [x] Als User möchte ich die Gym angeben bei der ich geklettert hat.
+- [x] Als User möchte ich den Schwierigkeitsgrad angeben.
+- [x] Als User möchte ich das Datum angeben an dem ich die Route geschafft habe.
 
 Für das dezentrale Arbeitspaket habe ich mein Design der App ein wenig ausgebessert. Für das nächste Mal möchte ich die Funktionen der To-do-App ausbessern, sodass es wirklich wie ein Klettetracker ist. Dann erweiterte ich die App, sodass sie schon mehrheitlich wie ein Klettertracker funktioniert. Ich habe jetzt Funktionen eingebaut, sodass der User das Gym, den Schwierigkeitsgrad und das Datum angeben kann. 
 
