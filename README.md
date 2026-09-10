@@ -46,6 +46,6 @@ Heute habe ich Avalonia vollständig auf VS Code eingerichtet und die To-do-App 
 Für das dezentrale Arbeitspaket habe ich mein Design der App ein wenig ausgebessert. Für das nächste Mal möchte ich die Funktionen der To-do-App ausbessern, sodass es wirklich wie ein Klettetracker ist. Dann erweiterte ich die App, sodass sie schon mehrheitlich wie ein Klettertracker funktioniert. Ich habe jetzt Funktionen eingebaut, sodass der User das Gym, den Schwierigkeitsgrad und das Datum angeben kann. 
 
 ## 11.09
-- [ ] Als User möchte ich, dass meine Kletterrouten auch nach dem Neustart der App noch da sind.
+- [x] Als User möchte ich, dass meine Kletterrouten auch nach dem Neustart der App noch da sind.
 - [ ] Als User möchte ich eine Bewertung zur Schwierigkeit angeben. (Eigene Bewertung der Schwierigkeit der Route)
 - [ ] Als User möchte ich meine Routen nach Schwierigkeitsgrad oder Gym filtern, damit ich schneller sehe, was ich in welcher Halle geklettert bin.
