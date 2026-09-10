@@ -4,12 +4,21 @@ using KletternRoutenApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
+using System.Text.Json;
 
 namespace KletternRoutenApp.ViewModels;
 
 
 public partial class MainViewModel : ViewModelBase
 {
+    // Pfad zur JSON-Datei, in der die Routen dauerhaft gespeichert werden.
+    private static readonly string SaveFilePath = Path.Combine(
+        Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
+        "KletternRoutenApp",
+        "routen.json");
+
     public ObservableCollection<KletterRoutenViewModel> ToDoItems { get; } = new ObservableCollection<KletterRoutenViewModel>();
 
     [ObservableProperty]
@@ -28,12 +37,16 @@ public partial class MainViewModel : ViewModelBase
     [ObservableProperty]
     public partial DateTimeOffset? NewItemDatum { get; set; } = DateTimeOffset.Now;
 
-    // Optionen für die Schwierigkeitsgrad-Auswahl (französische Skala)
     public List<string> SchwierigkeitsgradOptions { get; } = new()
     {
         "3", "4", "5a", "5b", "5c", "6a", "6a+", "6b", "6b+", "6c", "6c+",
         "7a", "7a+", "7b", "7b+", "7c", "7c+", "8a"
     };
+
+    public MainViewModel()
+    {
+        LoadItems();
+    }
 
     [RelayCommand(CanExecute = nameof(CanAddItem))]
     private void AddItem()
@@ -51,6 +64,8 @@ public partial class MainViewModel : ViewModelBase
         NewItemGym = string.Empty;
         NewItemSchwierigkeitsgrad = null;
         NewItemDatum = DateTimeOffset.Now;
+
+        SaveItems();
     }
 
     private bool CanAddItem()
@@ -62,5 +77,55 @@ public partial class MainViewModel : ViewModelBase
     private void DeleteItem(KletterRoutenViewModel item)
     {
         ToDoItems.Remove(item);
+        SaveItems();
+    }
+
+    private void SaveItems()
+    {
+        try
+        {
+            var directory = Path.GetDirectoryName(SaveFilePath);
+            if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+            {
+                Directory.CreateDirectory(directory);
+            }
+
+            var routenListe = ToDoItems.Select(vm => vm.GetKletterRouten()).ToList();
+
+            var json = JsonSerializer.Serialize(routenListe, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(SaveFilePath, json);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Fehler beim Speichern: {ex.Message}");
+        }
+    }
+
+    private void LoadItems()
+    {
+        try
+        {
+            if (!File.Exists(SaveFilePath))
+            {
+                return;
+            }
+
+            var json = File.ReadAllText(SaveFilePath);
+            var routenListe = JsonSerializer.Deserialize<List<KletterRouten>>(json);
+
+            if (routenListe is null)
+            {
+                return;
+            }
+
+            foreach (var route in routenListe)
+            {
+                ToDoItems.Add(new KletterRoutenViewModel(route));
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Fehler beim Laden: {ex.Message}");
+        }
     }
 }
