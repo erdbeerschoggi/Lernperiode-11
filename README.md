@@ -47,7 +47,7 @@ Für das dezentrale Arbeitspaket habe ich mein Design der App ein wenig ausgebes
 
 ## 11.09
 - [x] Als User möchte ich, dass meine Kletterrouten auch nach dem Neustart der App noch da sind.
-- [ ] Als User möchte ich eine Bewertung zur Schwierigkeit angeben. (Eigene Bewertung der Schwierigkeit der Route)
+- [ ] Als User möchte ich ein Auswahl zwischen Bouldern, Vorstieg (Lead) und Top rope haben und diese dann beim Eintragen der Route auswählen kann.
 - [ ] Als User möchte ich meine Routen nach Schwierigkeitsgrad oder Gym filtern, damit ich schneller sehe, was ich in welcher Halle geklettert bin.
 
 Für das dezentrale Arbeitspaket habe ich die App angepasst damit die Daten die man eingetragen hat nicht direkt nach zumachen der App, verloren gehen.
