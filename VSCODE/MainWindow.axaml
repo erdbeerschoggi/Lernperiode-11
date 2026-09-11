@@ -80,11 +80,11 @@
                                                 FontSize="15" />
 
                                     <StackPanel Orientation="Horizontal" Spacing="16" Margin="28 0 0 0">
-                                        <TextBlock Text="{Binding Gym, StringFormat='🏢 {0}'}"
+                                        <TextBlock Text="{Binding Gym, StringFormat='{0}'}"
                                                    FontSize="12" Foreground="#757575" />
-                                        <TextBlock Text="{Binding Schwierigkeitsgrad, StringFormat='📊 Grad {0}'}"
+                                        <TextBlock Text="{Binding Schwierigkeitsgrad, StringFormat='Grad {0}'}"
                                                    FontSize="12" Foreground="#757575" />
-                                        <TextBlock Text="{Binding Datum, StringFormat='📅 {0:dd.MM.yyyy}'}"
+                                        <TextBlock Text="{Binding Datum, StringFormat='{0:dd.MM.yyyy}'}"
                                                    FontSize="12" Foreground="#757575" />
                                     </StackPanel>
                                 </StackPanel>
