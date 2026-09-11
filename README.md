@@ -47,7 +47,16 @@ Für das dezentrale Arbeitspaket habe ich mein Design der App ein wenig ausgebes
 
 ## 11.09
 - [x] Als User möchte ich, dass meine Kletterrouten auch nach dem Neustart der App noch da sind.
-- [ ] Als User möchte ich ein Auswahl zwischen Bouldern, Vorstieg (Lead) und Top rope haben und diese dann beim Eintragen der Route auswählen kann.
+- [x] Als User möchte ich ein Auswahl zwischen Bouldern, Vorstieg (Lead) und Top rope haben und diese dann beim Eintragen der Route auswählen kann.
 - [ ] Als User möchte ich meine Routen nach Schwierigkeitsgrad oder Gym filtern, damit ich schneller sehe, was ich in welcher Halle geklettert bin.
 
-Für das dezentrale Arbeitspaket habe ich die App angepasst damit die Daten die man eingetragen hat nicht direkt nach zumachen der App, verloren gehen.
+Für das dezentrale Arbeitspaket habe ich die App angepasst damit die Daten die man eingetragen hat nicht direkt nach zumachen der App, verloren gehen. Dann habe ich mein Projekt noch abgeschlossen.
+
+## Fertiges Projekt
+In dieser Lernperiode habe ich einen Kletterrouten-Tracker entwickelt. Die Applikation dient Kletterbegeisterten als digitales Tagebuch für ihre absolvierten Routen. Um eine Route zu protokollieren, lassen sich in der App verschiedene Details erfassen: der Name der Route, die Kletterhalle, der Schwierigkeitsgrad, die Kletterart und das Datum. Damit die Einträge nach dem Schliessen der App erhalten bleiben, werden alle Daten dauerhaft in einer JSON-Datei gespeichert. Ausserdem gibt es eine Löschfunktion, um fehlerhafte oder ungewollte Einträge jederzeit wieder aus dem Tracker zu entfernen.
+
+<img width="976" height="864" alt="KletterRoutenApp" src="https://github.com/user-attachments/assets/c1c0875b-2571-4dff-b598-c4c77dc259bc" />
+
+
+## Reflexion
+Die Einarbeitung in das Avalonia-Framework gestaltete sich anfangs als herausfordernd. Als Basis diente mir ein ToDo-Tutorial, welches ich zunächst in Visual Studio umsetzen wollte. Aufgrund anhaltender Umgebungsprobleme in Visual Studio lag mein Fokus jedoch zu stark auf der Fehlerbehebung statt auf der eigentlichen Entwicklung. Durch den anschliessenden Wechsel zu Visual Studio Code konnte ich dieses Problem lösen. Die Entwicklungsumgebung lief dort viel besser, sodass ich effizient an der Applikation arbeiten konnte. Die Erstellung des Projekts war insgesamt spannend. Das fertige Endprodukt gefällt mir so gut, dass ich plane, den Tracker für mein eigenes Klettertraining einzusetzen.
