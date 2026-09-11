@@ -55,7 +55,8 @@ Für das dezentrale Arbeitspaket habe ich die App angepasst damit die Daten die 
 ## Fertiges Projekt
 In dieser Lernperiode habe ich einen Kletterrouten-Tracker entwickelt. Die Applikation dient Kletterbegeisterten als digitales Tagebuch für ihre absolvierten Routen. Um eine Route zu protokollieren, lassen sich in der App verschiedene Details erfassen: der Name der Route, die Kletterhalle, der Schwierigkeitsgrad, die Kletterart und das Datum. Damit die Einträge nach dem Schliessen der App erhalten bleiben, werden alle Daten dauerhaft in einer JSON-Datei gespeichert. Ausserdem gibt es eine Löschfunktion, um fehlerhafte oder ungewollte Einträge jederzeit wieder aus dem Tracker zu entfernen.
 
-<img width="976" height="864" alt="KletterRoutenApp" src="https://github.com/user-attachments/assets/92b37401-5dfd-47f4-add8-9c5db3e64dab" />
+<img width="976" height="864" alt="KletterRoutenApp" src="https://github.com/user-attachments/assets/54e17434-49bc-414b-a309-64f41722c33a" />
+
 
 
 ## Reflexion
