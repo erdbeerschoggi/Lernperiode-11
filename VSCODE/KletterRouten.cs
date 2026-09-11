@@ -9,5 +9,6 @@ namespace KletternRoutenApp.Models
         public string? Gym { get; set; }
         public string? Schwierigkeitsgrad { get; set; }
         public DateTimeOffset? Datum { get; set; }
+        public string? Kletterart { get; set; }
     }
 }

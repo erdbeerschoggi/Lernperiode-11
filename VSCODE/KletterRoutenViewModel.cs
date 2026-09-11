@@ -18,6 +18,7 @@ namespace KletternRoutenApp.ViewModels
             Gym = item.Gym;
             Schwierigkeitsgrad = item.Schwierigkeitsgrad;
             Datum = item.Datum;
+            Kletterart = item.Kletterart; 
         }
 
         private bool _isChecked;
@@ -39,6 +40,9 @@ namespace KletternRoutenApp.ViewModels
         [ObservableProperty]
         public partial DateTimeOffset? Datum { get; set; }
 
+        [ObservableProperty]
+        public partial string? Kletterart { get; set; }
+
         public KletterRouten GetKletterRouten()
         {
             return new KletterRouten()
@@ -47,7 +51,9 @@ namespace KletternRoutenApp.ViewModels
                 Content = this.Content,
                 Gym = this.Gym,
                 Schwierigkeitsgrad = this.Schwierigkeitsgrad,
-                Datum = this.Datum
+                Datum = this.Datum,
+                Kletterart = this.Kletterart
+                
             };
         }
     }
